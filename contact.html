@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../template/send.js"></script>
+    <scri type="text/javascript">
+        (function(){
+            emailjs.init("key");
+
+        })();
+    </script>
+</head>
+
+<body>
+    <section id="header">
+        <a href=""><img src="../static/MYlogo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="project.html">project</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <a href="" id="close"> <i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div class="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>Let's_Talk</h2>
+        <p>Rrad all case studies about our products</p>
+    </section>
+
+   
+    <!--main-->
+    <div class="container">
+
+        <!--header-->
+                
+                <span class="big-circle"></span>
+                <img src="../static/contact/blur.png" class="square" alt="">
+                <div class="form">
+                    <div class="contact-info">
+        
+                        
+                        <h3 class="title">Let's get in touch</h3>
+                        <p>If you have any construction and renovation work,simply call our 24 hour Emergeny Number.</p>
+                        <div class="info">
+                            <div class="information">
+                                <img src="../static/favivon/location.png" class="icon" alt="">
+                                <p>cherry Drive Uniondale, NY 11553</p>
+        
+                            </div>
+        
+                            <div class="information">
+                                <img src="../static/favivon/mail.png" class="icon" alt="">
+                                <p>707mercedess@gmail.com</p>
+        
+                            </div>
+        
+                            <div class="information">
+                                <img src="../static/favivon/phone.png" class="icon" alt="">
+                                <p>+254-706-955-823</p>
+        
+                            </div>
+        
+                            
+                        </div>
+        
+                        <div class="social-media">
+                            <p>Connect with us</p>
+                            <div class="social-icon">
+                                <a href="#">
+                                    <img src="../static/favivon/facebook.png" class="icon " alt="">
+                                </a>
+        
+                                <a href="#">
+                                    <img src="../static/favivon/twitter.png" class="icon" alt="">
+                                </a>
+        
+                                
+        
+                                <a href="#">
+                                    <img src="../static/favivon/linkedin.png" class="icon" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+        
+                        <span class="circle-one"></span>
+                        <span class="circle-two"></span>
+                        <form action="index.html" autocomplete="off">
+                            <h3 class="title">Contact us</h3>
+                            <div class="input-container ">
+                                <input type="text" name="name" class="input" required/>
+                                <label for="">username</label>
+                                <span>username</span>
+                            </div>
+        
+                            <div class="input-container">
+                                <input type="Email" name="Email" class="input" required/>
+                                <label for="">Email</label>
+                                <span>Email</span>
+                            </div>
+        
+                            <div class="input-container">
+                                <input type="tel" name="phone" class="input" required/>
+                                <label for="">phone</label>
+                                <span>phone</span>
+                            </div>
+        
+                            <div class="input-container textarea focus">
+                                <textarea id="text" name="message" class="input"></textarea>
+                                <label for="">message</label>
+                                <span>message</span>
+                            </div>
+                            <input id="btn" type="submit" value="send" class="btn" onclick="sendMail()">
+        
+                            
+                        </form>
+                    </div>
+        
+                </div>
+            </div>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>sign up for Newsletter</h4>
+            <p>Get E-mail updates about iur latest shop and <span>special offer.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email adress">
+            <button class="normal">sign up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../static/MYlogo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Adress:</strong> 562 wellington Road,street 32,San francisco</p>
+            <p><strong>Phone:</strong> +254706955823</p>
+            <p><strong>Hours:</strong> 08:00-17:00, Mon-Fri</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twiter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pintrest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wish List</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2021,Tech2 etc -HTML CSS Ecomernce Template </p>
+        </div>
+    </footer>
+
+  <script>
+const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+    let parent = this.parentNode;
+    parent.classlist.add("focus");
+}
+
+function blurFunc() {
+    let parent = this.parentNode;
+    if(this.value == "")
+    parent.classlist.remove("focus");
+}
+
+inputs.forEach((input) => {
+    input.addEventListener("focus",focusFunc);
+    input.addEventListener("blur",blurFunc);
+})
+
+
+var btn = document.getElementById("btn"),
+    text = document.getElementById("text");
+btn.addEventListener("click", function () {
+    sendMessage(text.value);
+    text.value = "";
+    });
+function sendMessage(message) {
+    if (!message || !message.length) return;
+    childWindow.postMessage(JSON.stringify({
+        message: message,
+        time: new Date()
+    }), 'ogwenoalex@gmail.com');
+}
+
+
+  </script>  
+</body>
+</html>
